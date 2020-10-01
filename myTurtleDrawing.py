@@ -5,13 +5,11 @@ Created on Mar 7, 2020
 '''
 import turtle 
 
-painter = turtle.Turtle()
-
-painter.pencolor("blue")
-
 ninja = turtle.Turtle()
 
-ninja.speed(10)
+ninja.pencolor("blue")
+
+ninja.speed(100)
 
 
 for i in range(180):
